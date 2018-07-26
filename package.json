@@ -6,8 +6,7 @@
     "axios": "^0.18.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-materialize": "^2.3.3",
-    "react-scripts": "1.1.4"
+    "react-materialize": "^2.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,6 +15,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "enzyme": "^3.3.0"
-  }
+    "enzyme": "^3.3.0",
+    "react-scripts": "^1.1.4"
+  },
+  "proxy": "http://localhost:3001/"
 }
