@@ -1,7 +1,10 @@
 import axios from 'axios'
 
 const https = axios.create({
-    timeout: 4000
-  });
+  auth: {
+    username: "apikey",
+    password: "XXXXXXXXXX"
+  },
+});
 
 export default https
